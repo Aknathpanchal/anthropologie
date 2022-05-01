@@ -14,7 +14,6 @@ const navbar = () => {
  </div>
 
 
-
 <!-- <div id="OfferNav">Sale!  Get additional $50 OFF on minimum purchase of $800 "50ANTHRO"</div> -->
 <div id="AnthroNav_Bar">
    <div id="NavDiv_a">
@@ -33,15 +32,6 @@ const navbar = () => {
 
      
      
-   
-         
-     
-           
-
-
-
-
-
 
        <div id="SearchBar">
            <div>

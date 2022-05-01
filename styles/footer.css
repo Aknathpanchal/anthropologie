@@ -1,0 +1,137 @@
+.FooterBox{
+    width:100%;
+    height:800px;
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+.AboutUs{
+    width: 94%;
+    height:110px;
+    padding:3%;
+    margin:auto;
+    font-family: "Avenir Medium", sans-serif;
+    color: #26262c;
+    font-size: 12px;
+    border-top:1px solid #26262c13;
+    background-color: snow;
+    letter-spacing: .06rem;
+    overflow: hidden;
+}
+.AboutUs:hover{
+    cursor: inherit;
+}
+.Footer{
+    display:flex;
+    width:100%;
+    height:60px;
+    border-top:1px solid #26262c13;
+    gap:55px;
+    padding-top: 20px;
+}
+.FootTxt{
+    font-family: "Avenir Medium", sans-serif;
+    color: #26262c;
+    font-size: 12px;
+    letter-spacing: .06rem;
+    margin-left: 15%;
+}
+.EmailBox{
+    font-family: "Avenir Medium", sans-serif;
+    color: #26262c;
+    font-size: 10px;
+    letter-spacing: .06rem;
+}
+#EmailTxt{
+    width:350px;
+    height:35px;
+    padding:2px;
+    font-family: "Avenir Medium", sans-serif;
+    color: #26262c;
+    font-size: 10px;
+    letter-spacing: .06rem;
+}
+#SubmitEmailFT{
+    width:100px;
+    height:35px;
+    padding:2px;
+    background-color: rgba(139, 56, 56, 0.74);
+    color: snow;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 20px;
+}
+#SubmitEmailFT:hover{
+    background-color: rgba(155, 30, 30, 0.74);
+    cursor: pointer;
+}
+.TxtSigningUp{
+    width:96%;
+    height:8px;
+    padding:2%;
+    color: #26262c;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: .06rem;
+    font-size: 9px;
+    text-align: center;
+    border-bottom:1px solid #26262c13;
+}
+.FooterGrid{
+    width:80%;
+    height:300px;
+    margin:auto;
+    padding: 2%;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #26262c;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    line-height: 20px;
+    grid-gap: 20px;
+}
+.FTGrid:hover{
+    content:'';
+    cursor: pointer;
+    text-decoration: underline;
+    transition: width 0.1s linear;
+}
+.StoreFT{
+    color: darkcyan;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+.IconStoreFT>ion-icon{
+    font-size: 25px;
+    text-align: center;
+}
+.FTStore:hover{
+    cursor: pointer;
+    color: #26262c;
+}
+.iconSocialM{
+    width:100%;
+    height:100px;
+}
+.BranchesFT{
+    text-align: center;
+    color: #26262c;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: .06rem;
+    font-size: 12px;
+}
+.IconSocialM{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: darkcyan;
+    size:large;
+}
+.SMFoot:hover{
+    cursor: pointer;
+    color: #26262c;
+}

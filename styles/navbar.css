@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: .06rem;
+}
+
+ body {
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ }
+
+ a{
+     color: white;
+ } 
+ .s1{
+     background-color: #3a5d64;
+     text-align: center;
+     height: 45px;
+     padding: 1%;
+     box-sizing: border-box;
+     font-size: 15px;
+     color: white;
+ }
+ 
+.signIn-signUp {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #fdfdf9;
+  text-align: right;
+  color: #7aa9b3;
+  font-size: 12px;
+  /* font-weight: 100; */
+  vertical-align: middle;
+  padding-right: 5%;
+}
+
+
+
+i{
+ font-size: 20px;
+ vertical-align: middle;
+ cursor: pointer;
+}
+a{
+ color: #7aa9b3;
+ text-decoration: none;
+}
+.login{
+  cursor: pointer;
+}
+
+/* navbar */
+
+#AnthroNav_Bar {
+    height: 100px;
+    width: 100%;
+  }
+  .stayNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #OfferNav {
+    height: 15px;
+    width: 98%;
+    text-align: center;
+    color: snow;
+    background-color: darkcyan;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: 0.06rem;
+    font-size: 12px;
+    padding: 1%;
+  }
+  #NavDiv_a {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: snow;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    color: #26262c;
+  }
+  #SiteName {
+    width: 65%;
+    font-weight: bold;
+    margin-left: 4%;
+    font-size: 20px;
+    font-stretch: wider;
+    letter-spacing: 3px;
+  }
+  #SiteName:hover {
+    cursor: pointer;
+  }
+  
+  #SiteName2 {
+    width: 65%;
+    font-weight: bold;
+    margin-left: 4%;
+    font-size: 20px;
+    font-stretch: wider;
+    letter-spacing: 3px;
+  }
+  #SiteName2:hover {
+    cursor: pointer;
+  }
+  #SearchBar {
+    width: 18%;
+    height: 50%;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    margin-top: 8px;
+    display: flex;
+  }
+  #searchTxt {
+    width: 220px;
+    height: 22px;
+    padding: 5px;
+    border: 0px;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: 0.06rem;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  #iconSearch {
+    width: 22px;
+    height: 22px;
+    align-items: right;
+    color: darkcyan;
+    font-size: 22px;
+    margin-top: 5px;
+  }
+  #iconSearch:hover {
+    cursor: pointer;
+    color: #26262c;
+    content: "";
+    transition: width 0.1s linear;
+  }
+  #iconNav {
+    width: 22px;
+    height: 22px;
+    align-items: right;
+    color: darkcyan;
+    font-size: 32px;
+    margin-top: 12px;
+    margin-left: 32px;
+  }
+  #iconNav:hover {
+    cursor: pointer;
+    color: #26262c;
+    content: "";
+    transition: width 0.1s linear;
+  }
+  #NavDiv_b {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: snow;
+    color: #26262c;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    margin-top: 15px;
+    gap: 20px;
+  }
+  #TagsNav {
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    color: #26262c;
+    background-position: 50%;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+  }
+  #TagsNav:hover {
+    cursor: pointer;
+    color: darkcyan;
+    content: "";
+    border-bottom: 1px solid darkcyan;
+    transition: width 0.1s linear;
+  }
+  #TagsNav1 {
+    width: 130px;
+    height: 28px;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    color: #26262c;
+    background-position: 50%;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+  }
+  #TagsNav1:hover {
+    cursor: pointer;
+    color: darkcyan;
+    content: "";
+    border-bottom: 1px solid darkcyan;
+    transition: width 0.1s linear;
+  }
