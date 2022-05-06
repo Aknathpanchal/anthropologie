@@ -41,7 +41,22 @@
 
 
 </script>
+<script>
 
+window.onscroll = function() {myFunction()};
+    
+    var header1 = document.getElementById("AnthroNav_Bar");
+
+    var stayNav = header1.offsetTop;
+    function myFunction() {
+        if (window.pageYOffset > stayNav) {
+            header1.classList.add("stayNav");
+        }
+        else {
+            header1.classList.remove("stayNav");
+        }
+    }
+</script>
 
 
 

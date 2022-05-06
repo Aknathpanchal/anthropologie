@@ -56,6 +56,7 @@ a{
 #AnthroNav_Bar {
     height: 100px;
     width: 100%;
+    /* position: fixed; */
   }
   .stayNav {
     position: fixed;
@@ -124,6 +125,43 @@ a{
     margin-top: 5px;
     box-sizing: border-box;
   }
+
+
+
+
+
+
+
+
+  #S{
+    display: flex;
+    align-items: center;
+    width: 780px;
+    height: 40px;
+    border:1px solid black;
+    
+}
+
+#search{
+width: 100%;
+height:36px;
+}
+
+.style-scope{
+width: 45px;
+height: 40px;
+border: white;
+}
+
+
+
+
+
+
+
+
+
+  
   #iconSearch {
     width: 22px;
     height: 22px;

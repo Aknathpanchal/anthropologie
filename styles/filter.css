@@ -1,0 +1,46 @@
+#SortBy {
+    height: 150px;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    letter-spacing: 0.06rem;
+    color: #26262c;
+  }
+  #priceSort {
+    width: 180px;
+    height: 30px;
+    letter-spacing: 0.06rem;
+    color: #26262c;
+    background-position: 50%;
+    background-color: #40404210;
+    font-size: 10px;
+    font-family: "Avenir Medium", sans-serif;
+    border: 1px solid #79797910;
+    border-radius: 5px;
+  }
+  #priceSort:hover {
+    background-color: #69696923;
+    cursor: pointer;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+      rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+  }
+  #FilterBy {
+    letter-spacing: 0.06rem;
+    color: #26262c;
+    background-position: 50%;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+  }
+  #tagHead {
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #26262c93;
+  }
+  .catNm {
+    color: #26262c93;
+  }
+  .catNm:hover {
+    color: darkcyan;
+    cursor: pointer;
+  }
+  
