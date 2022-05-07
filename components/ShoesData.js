@@ -6,13 +6,7 @@ var shoeData= [
         price:"$136",
         p:136,
     },
-    {
-        image_url:
-            "https://images.urbndata.com/is/image/Anthropologie/67176966_011_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720",
-        name:"Nisolo Ama Woven Mules",
-        price:"$180",
-        p:180,
-    },
+   
     {
         image_url:
             "https://images.urbndata.com/is/image/Anthropologie/67172148_045_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720",
