@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cart.css" />
+    <title>Basket | Anthropologie</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://visitoakville.com/wp-content/uploads/2013/03/04-07-2021-anthropologie-logo.jpg" />
+    
+</head>
+<body>
+    <div id="HomePageContent">
+        <!-- <label for="">Navigation Bar</label> -->
+        <div id="OfferNav">Sale!  Get additional $50 OFF on minimum purchase of $800 "50ANTHRO"</div>
+        <div id="AnthroNav_Bar">
+            <div id="NavDiv_a">
+                <div id="SiteName" onclick="window.location.href='Home Page.html'">
+                    <p>ANTHROPOLOGIE</p>
+                </div>
+                <div id="SearchBar">
+                    <div>
+                        <input id="searchTxt" type="text" placeholder="Search">
+                    </div>
+                    <div id="iconSearch">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>   
+                </div>
+                <div id="SignIn" onclick="window.location.href='SignUp_Page.html'">
+                    <ion-icon id="iconNav" name="person-outline"></ion-icon>
+                </div>
+                <div id="Cart" onclick="window.location.href='CartPage.html'">
+                    <ion-icon id="iconNav" name="bag-outline"></ion-icon>
+                </div>
+            </div>
+            <div id="NavDiv_b">
+                <div id="TagsNav"  style="margin-left: 3%" onclick="window.location.href='Dresses.html'">Dresses</div>
+                <div id="TagsNav" onclick="window.location.href='ClothingPage.html'">Clothing</div>
+                <div id="TagsNav" onclick="window.location.href='ShoesPage.html'">Shoes</div>
+                <div id="TagsNav" onclick="window.location.href='AccessoriesPage.html'">Accessories</div>
+                <div id="TagsNav1" onclick="window.location.href='HomeFurn.html'">Home & Furniture</div>
+                <div id="TagsNav1" onclick="window.location.href='Beauty_Well.html'">Beauty & Wellness</div>
+                <div id="TagsNav" onclick="window.location.href='Weddings.html'">Weddings</div>
+                <div id="TagsNav1" onclick="window.location.href='Gifts_Candle.html'">Gifts & Candles</div>
+            </div>            
+        </div>
+        <br>
+        <br>
+        <!-- <label for="">Cart Page</label> -->
+        <div id="CartBox">
+            <div id="AddCart">
+                <h4>Basket</h4>
+                <div id="ListCart">
+
+                </div>
+            </div>
+            <div id="PaymentTranc">
+                <div id="coupon">
+                </div>
+                <div id="totl">
+                </div>
+                <div id="disc">
+                </div>
+                <div id="GrandTotal">
+                </div>
+                <div id="payBox">
+                    <br>
+                <form action="" id="payment">
+                    <p>Payment Method</p>
+                    <select name="" id="priceSort" onchange="PriceSort()">
+                        <option>Choose Method of Payment</option>
+                        <option>Credit/Debit Card</option>
+                        <option>Paypal</option>
+                        <option>Apple Pay</option>
+                        <option>Net Banking</option>
+                        <option>Cash On Delivery</option>
+                    </select>
+                    <p>Your Address</p>
+                    <input id="pay" type="text" placeholder="Enter Building & Street Name*" />
+                    <br>
+                    <input id="pay" type="email" placeholder="Enter City*" />
+                    <br>
+                    <input id="pay" type="text" maxlength="7" placeholder="Enter Pincode*" />
+                    <br>
+                    <button id="CheckBut" type="submit">PAY NOW</button>
+                    <p id="tagChk" onclick="window.location.href='Checkout.html'">Check Out</p>
+                  </form>
+                </div>
+            </div>
+        </div>
+        <!-- <label for="">Recommended</label> -->
+        <div id="SuggBox">
+            <p>You May Also Like</p>
+            <div id="gridSB">
+                <div id="imgSugg">
+                    <img style="width:260px; height:360px; margin-left: 15px; margin-top: 20px;" src="https://images.urbndata.com/is/image/Anthropologie/60467438_040_b?$an-category$&qlt=80&fit=constrain" alt="SBox01"/>
+                </div>
+                <div id="imgSugg">
+                    <img style="width:260px; height:360px; margin-left: 15px; margin-top: 20px;" src="https://images.urbndata.com/is/image/Anthropologie/63223754_030_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" alt="SBox02"/>
+                </div>
+                <div id="imgSugg">
+                    <img style="width:260px; height:360px; margin-left: 15px; margin-top: 20px;" src="https://images.urbndata.com/is/image/Anthropologie/38399432_071_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" alt="SBox03"/>
+                </div>
+                <div id="imgSugg">
+                    <img style="width:260px; height:360px; margin-left: 15px; margin-top: 20px;" src="https://images.urbndata.com/is/image/Anthropologie/63864128_050_b3?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540" alt="SBox04"/>
+                </div>
+                <div id="imgSugg">
+                    <img style="width:260px; height:360px; margin-left: 15px; margin-top: 20px;" src="https://images.urbndata.com/is/image/Anthropologie/58890518_000_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" alt="SBox05"/>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- <label for="">Footer</label> -->
+        <div class="FooterBox">
+            <div class="AboutUs">
+                <p style="font-weight: bold">About Us</p>
+                <p>Our mission at Anthropologie has always been to surprise and delight you with unexpected, distinctive finds for your closet and home. We source and craft all of our products with care, ensuring that any treasure you find at Anthropologie is unique, just like you. Explore our dress shop to find styles and fits perfect for any occasion, from cocktail parties to weddings to casual daytime silhouettes. Browse party skirts, wide-leg pants and jeans, and blouses that will turn heads. Complete your look with uncommon accessories—think only-here slides and head-turning totes. Discover our expansive home collections, from furniture to curtains, decorative pillows to duvets, wall art to Moroccan-inspired rugs. Looking for a housewarming gift? Try a coffee table book, original glassware or a set of coasters.</p>
+            </div>
+        <div class="Footer">
+            <div class="FootTxt">
+                <h4>Sign Up For Anthropologie Emails</h4>
+                <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
+            </div>
+            <div class="EmailBox">
+                <p style="font-size: 8px">Email Address*</p>
+                <form>
+                    <input id="EmailTxt" type="text" placeholder="JohnSnow@email.com">
+                    <button type="submit" id="SubmitEmailFT" value="submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+        <div class="TxtSigningUp">
+            <p>By signing up, you will receive Anthropologie offers, promotions and other commercial messages. You are also agreeing to Anthropologie’s Privacy Policy. You may unsubscribe at any time.</p>
+        </div>
+        <div class="FooterGrid">
+            <div style="background-color: whitesmoke">
+                <h4 class="FTGrid">Help</h4>
+                <br>
+                <p class="FTGrid">Track Your Order</p>
+                <p class="FTGrid">Start A Return Or Exchange (US)</p>
+                <p class="FTGrid">Returns & Exchanges</p>
+                <p class="FTGrid">Shipping</p>
+                <p class="FTGrid">Customer Service</p>
+                <p class="FTGrid">Current Promotions</p>
+                <p class="FTGrid">COVID-19 Update</p>
+            </div>
+            <div style="background-color: whitesmoke">
+                <h4 class="FTGrid">About Us</h4>
+                <br>
+                <p class="FTGrid">Our Story</p>
+                <p class="FTGrid">Events</p>
+                <p class="FTGrid">A Greater Good</p>
+                <p class="FTGrid">Diversity & Inclusion</p>
+            </div>
+            <div style="background-color: whitesmoke">
+                <h4 class="FTGrid">Services</h4>
+                <br>
+                <p class="FTGrid">AnthroPerks</p>
+                <p class="FTGrid">Gift Cards</p>
+                <p class="FTGrid">Trade Membership</p>
+                <p class="FTGrid">Furniture:Guides & Services</p>
+                <p class="FTGrid">Store Pickup & Collection Points</p>
+            </div>
+            <div style="background-color: whitesmoke">
+                <h4 class="FTGrid">Connect</h4>
+                <br>
+                <p class="FTGrid">Contact Us</p>
+                <p class="FTGrid">Stay Connected</p>
+                <p class="FTGrid">Careers</p>
+                <p class="FTGrid">Styling Services</p>
+                <p class="FTGrid">Request A Catalog</p>
+            </div>
+            <div class="StoreFT">
+                <div class="IconStoreFT">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <h4 class="FTStore">Store Locator</h4>
+                </div>
+                <br>
+                <div class="IconStoreFT">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <h4 class="FTStore">Get Email</h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="IconSocialM">
+            <ion-icon class="SMFoot" name="logo-instagram"></ion-icon>
+            <ion-icon class="SMFoot" name="logo-twitter"></ion-icon>
+            <ion-icon class="SMFoot" name="logo-facebook"></ion-icon>
+        </div>
+        <br>
+        <br>
+        <div class="iconSocialM">
+            <img style="width:100%; height:100px" src="https://images.ctfassets.net/5de70he6op10/2Lh06CXT4AzVnj4LxvGsQD/a424e10a3b8c9e2e270dc22505bfbfa6/022421_SiteFooter_SMS_SIgnUp.jpg" alt="AddFooter"/>
+        </div>
+        <div class="BranchesFT">
+            <br>
+            <br>
+            <p style="background-color: whitesmoke">US | France | Germany | UK</p>
+            <br>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script>
+
+        window.onscroll = function() {myFunction()};
+    
+        var header = document.getElementById("AnthroNav_Bar");
+    
+        var stayNav = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > stayNav) {
+                header.classList.add("stayNav");
+            }
+            else {
+                header.classList.remove("stayNav");
+            }
+        }
+    </script>
+</body>
+</html>
+<script>
+
+    var elem = JSON.parse(localStorage.getItem("prodData")) || [];
+    var cart= JSON.parse(localStorage.getItem("basketItem"));
+    console.log(cart);
+
+    cart.map(function (elem){
+        
+        var div1  = document.createElement('div');
+        
+        //Product Display
+        var imagediv  = document.createElement('div');
+        var img = document.createElement('img');
+        img.setAttribute('src',elem.image_url);
+        img.setAttribute('id','Product')
+        imagediv.append(img);
+    
+        //Product Details
+        var namediv  = document.createElement('div');
+        var namehead = document.createElement('p');
+        namehead.textContent = elem.name;
+        namediv.append(namehead);
+        
+        var rate  = document.createElement('p');
+        var mrpdiv  = document.createElement('div');
+        rate.textContent = elem.price;
+        mrpdiv.append(rate);
+
+        div1.append(imagediv,namediv,mrpdiv); 
+        document.querySelector('#ListCart').append(div1);
+    });
+
+    //Total Price of Cart
+
+    var total= cart.reduce(function(acc,cv){
+        return acc+ Number(cv.p);
+    }, 0);
+    
+    document.querySelector("#coupon").textContent=`Applied Coupon Code: 50ANTHRO`
+    document.querySelector("#totl").textContent=`Total Amount: $ ${total}`
+    document.querySelector("#disc").textContent=`Discount Amount: $ 50`
+    document.querySelector("#GrandTotal").textContent=`Grand Total: $ ${total-50}`
+    console.log(total);
+
+</script>

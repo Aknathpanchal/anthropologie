@@ -1,0 +1,523 @@
+* {
+  background-color: snow;
+}
+.flex {
+  display: flex;
+}
+/*Navigation Bar*/
+#HomePageContent {
+  width: 100%;
+  height: 2000px;
+  margin: auto;
+}
+#AnthroNav_Bar {
+  height: 100px;
+  width: 100%;
+}
+.stayNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#OfferNav {
+  height: 15px;
+  width: 98%;
+  text-align: center;
+  color: snow;
+  background-color: darkcyan;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  padding: 1%;
+}
+#NavDiv_a {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: snow;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  color: #26262c;
+}
+#SiteName {
+  width: 65%;
+  font-weight: bold;
+  margin-left: 4%;
+  font-size: 20px;
+  font-stretch: wider;
+  letter-spacing: 3px;
+}
+#SiteName:hover {
+  cursor: pointer;
+}
+#SearchBar {
+  width: 18%;
+  height: 70%;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  margin-top: 8px;
+  display: flex;
+}
+#searchTxt {
+  width: 220px;
+  height: 22px;
+  padding: 5px;
+  border: 0px;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  margin-left: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+#iconSearch {
+  width: 22px;
+  height: 22px;
+  align-items: right;
+  color: darkcyan;
+  font-size: 22px;
+  margin-top: 5px;
+}
+#iconSearch:hover {
+  cursor: pointer;
+  color: #26262c;
+  content: "";
+  transition: width 0.1s linear;
+}
+#iconNav {
+  width: 22px;
+  height: 22px;
+  align-items: right;
+  color: darkcyan;
+  font-size: 32px;
+  margin-top: 12px;
+  margin-left: 32px;
+}
+#iconNav:hover {
+  cursor: pointer;
+  color: #26262c;
+  content: "";
+  transition: width 0.1s linear;
+}
+#NavDiv_b {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  background-color: snow;
+  color: #26262c;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  margin-top: 15px;
+  gap: 20px;
+}
+#TagsNav {
+  width: 80px;
+  height: 28px;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  color: #26262c;
+  background-position: 50%;
+  font-size: 12px;
+  font-family: "Avenir Medium", sans-serif;
+}
+#TagsNav:hover {
+  cursor: pointer;
+  color: darkcyan;
+  content: "";
+  border-bottom: 1px solid darkcyan;
+  transition: width 0.1s linear;
+}
+#TagsNav1 {
+  width: 130px;
+  height: 28px;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  color: #26262c;
+  background-position: 50%;
+  font-size: 12px;
+  font-family: "Avenir Medium", sans-serif;
+}
+#TagsNav1:hover {
+  cursor: pointer;
+  color: darkcyan;
+  content: "";
+  border-bottom: 1px solid darkcyan;
+  transition: width 0.1s linear;
+}
+/*Clothing Page*/
+#ProductPage {
+  width: 93%;
+  display: flex;
+  gap: 3%;
+  margin: auto;
+}
+#CategProd {
+  width: 15%;
+  height: 500px;
+}
+#ProductDisplay {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 500px);
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 12px;
+  letter-spacing: 0.06rem;
+  text-align: center;
+}
+#Product {
+  width: 160px;
+  height: 260px;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+/*Cart Portion*/
+
+#CartBox {
+  width: 85%;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 35px;
+  padding: 1%;
+}
+#AddCart {
+  width: 60%;
+  height: 480px;
+  padding: 2%;
+  border: 1px solid #26262c4b;
+  border-radius: 5px;
+  letter-spacing: 0.06rem;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 15px;
+  line-height: 15px;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#PaymentTranc {
+  width: 28%;
+  padding: 2%;
+  height: 480px;
+  border: 1px solid #26262c4b;
+  border-radius: 5px;
+  letter-spacing: 0.06rem;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 15px;
+  line-height: 15px;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#pay {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #26262c83;
+  border-radius: 5px;
+  color: #26262c;
+  outline: none;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: "Avenir Medium", sans-serif;
+  background-position: 50%;
+  margin-left: 5%;
+  margin-top: 15px;
+}
+#pay:hover {
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#tagChk {
+  color: #26262c;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  background-position: 50%;
+  font-size: 12px;
+  text-align: center;
+}
+#tagChk:hover {
+  cursor: pointer;
+  color: darkcyan;
+}
+#CheckBut {
+  width: 40%;
+  height: 30px;
+  background-color: #26262c;
+  color: snow;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: "Avenir Medium", sans-serif;
+  background-position: 50%;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 28%;
+}
+#CheckBut:hover {
+  background-color: #26262c83;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+  cursor: pointer;
+}
+#priceSort {
+  width: 80%;
+  height: 35px;
+  letter-spacing: 0.06rem;
+  color: #26262c;
+  background-position: 50%;
+  background-color: #40404210;
+  font-size: 10px;
+  font-family: "Avenir Medium", sans-serif;
+  border: 1px solid #79797910;
+  border-radius: 5px;
+  margin-left: 6%;
+}
+#priceSort:hover {
+  background-color: #69696923;
+  cursor: pointer;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#ListCart {
+  width: 98%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 12px;
+  letter-spacing: 0.06rem;
+  text-align: center;
+}
+#coupon {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 10px;
+  letter-spacing: 0.06rem;
+}
+#totl {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 10px;
+  letter-spacing: 0.06rem;
+}
+#disc {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-family: "Avenir Medium", sans-serif;
+  color: #8f3333b2;
+  font-size: 10px;
+  letter-spacing: 0.06rem;
+}
+#GrandTotal {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 12px;
+  letter-spacing: 0.06rem;
+}
+#boxTotal {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 10px;
+  color: #26262c;
+}
+/*You May Also Like*/
+#SuggBox {
+  width: 94%;
+  height: 450px;
+  margin: auto;
+  letter-spacing: 0.06rem;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+}
+#SuggBox > p {
+  width: 100%;
+  height: 18px;
+  border-bottom: 1px solid #26262c13;
+}
+#gridSB {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+#gridSB:hover {
+  cursor: pointer;
+}
+#GrandTotal {
+  width: 90%;
+  margin: auto;
+  letter-spacing: 0.06rem;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  margin-left: 4%;
+}
+/*FooterPortion*/
+.FooterBox {
+  width: 100%;
+  height: 800px;
+  background-color: whitesmoke;
+  margin-top: 0px;
+}
+.AboutUs {
+  width: 94%;
+  height: 110px;
+  padding: 3%;
+  margin: auto;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 12px;
+  border-top: 1px solid #26262c13;
+  background-color: snow;
+  letter-spacing: 0.06rem;
+}
+.AboutUs:hover {
+  cursor: inherit;
+}
+.Footer {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #26262c13;
+  gap: 55px;
+}
+.FootTxt {
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 12px;
+  letter-spacing: 0.06rem;
+  margin-left: 15%;
+}
+.EmailBox {
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 10px;
+  letter-spacing: 0.06rem;
+}
+#EmailTxt {
+  width: 350px;
+  height: 35px;
+  padding: 2px;
+  font-family: "Avenir Medium", sans-serif;
+  color: #26262c;
+  font-size: 10px;
+  letter-spacing: 0.06rem;
+}
+#SubmitEmailFT {
+  width: 100px;
+  height: 35px;
+  padding: 2px;
+  background-color: rgba(139, 56, 56, 0.74);
+  color: snow;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 20px;
+}
+#SubmitEmailFT:hover {
+  background-color: rgba(155, 30, 30, 0.74);
+  cursor: pointer;
+}
+.TxtSigningUp {
+  width: 96%;
+  height: 8px;
+  padding: 2%;
+  color: #26262c;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 9px;
+  text-align: center;
+  border-bottom: 1px solid #26262c13;
+}
+.FooterGrid {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: #26262c;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  line-height: 20px;
+  grid-gap: 20px;
+  background-color: whitesmoke;
+}
+.FTGrid {
+  background-color: whitesmoke;
+}
+.FTGrid:hover {
+  content: "";
+  cursor: pointer;
+  text-decoration: underline;
+  transition: width 0.1s linear;
+}
+.StoreFT {
+  color: darkcyan;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: whitesmoke;
+}
+.IconStoreFT {
+  background-color: whitesmoke;
+}
+.IconStoreFT > ion-icon {
+  font-size: 25px;
+  text-align: center;
+}
+.FTStore {
+  background-color: whitesmoke;
+}
+.FTStore:hover {
+  cursor: pointer;
+  color: #26262c;
+}
+.iconSocialM {
+  width: 100%;
+  height: 100px;
+  background-color: whitesmoke;
+}
+.BranchesFT {
+  text-align: center;
+  color: #26262c;
+  font-family: "Avenir Medium", sans-serif;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  background-color: whitesmoke;
+}
+.IconSocialM {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  color: darkcyan;
+  size: large;
+  background-color: whitesmoke;
+}
+.SMFoot:hover {
+  cursor: pointer;
+  color: #26262c;
+}
