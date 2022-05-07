@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In </title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://visitoakville.com/wp-content/uploads/2013/03/04-07-2021-anthropologie-logo.jpg" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="styles\Home Page.css">
+    <link rel="stylesheet" href="styles\glider.min.css">
+    <link rel="stylesheet" href="./styles/page.css">
+    <link rel="stylesheet" href="./styles/filter.css">
+    
+</head>
+<body>
+        <!-- <label for="">Home Page</label> -->
+        <div id="OfferNav">Sale!  Get additional $50 OFF on minimum purchase of $800 "50ANTHRO"</div>
+        <div id="header"></div>
+
+    
+    <div id="loginPage">
+        </div>
+    <!-- <label for="">Recommended</label> -->
+  
+    
+    <br>
+
+
+   
+
+    <div id="footer"></div>
+
+        <!-- <label for="">Sign Up</label> -->
+     
+    <!-- <label for="">Footer</label> -->
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script>
+
+        window.onscroll = function() {myFunction()};
+    
+        var header = document.getElementById("AnthroNav_Bar");
+    
+        var stayNav = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > stayNav) {
+                header.classList.add("stayNav");
+            }
+            else {
+                header.classList.remove("stayNav");
+            }
+        }
+    </script>
+</body>
+</html>
+<script>
+    document.getElementById("form").addEventListener("submit", signIn);
+    var regUser = JSON.parse(localStorage.getItem("user")) || [];
+    function signIn(e) {
+    e.preventDefault();
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+    if (!email || !password) {
+        alert("Enter All of the details");
+        }
+        else {
+            for (var i = 0; i < regUser.length; i++) {
+                if (regUser[i].email === email && regUser[i].password === password) {
+                    alert("WELCOME BACK! We missed you .");
+                    window.location.href = "Home Page.html";
+            return;
+            }
+            else if (email == "admin@gmail.com" && password == "admin") {
+                alert("SignIn Sucessfully !");
+                //redirect Home page
+                window.location.href = "Home Page.html";
+                return;
+            }
+      }
+      alert("ERROR! Wrong E-Mail Id or Password");
+    }
+  }
+  </script>
+
+<script type="module">
+
+    //navbar
+    import navbar from "./components/navbar.js"
+    console.log(navbar);
+
+    let header = document.getElementById("header");
+    header.innerHTML = navbar();
+
+  //sort
+  import login from "./components/login.js"
+    console.log(login);
+
+    let sort = document.getElementById("loginPage");
+    sort.innerHTML = login();
+
+
+
+
+
+    //footer
+    import footer from "./components/footer.js"
+    console.log(footer);
+
+    let footerdiv = document.getElementById("footer");
+    footerdiv.innerHTML = footer();
+
+
+</script>

@@ -70,3 +70,325 @@
   #gridSB:hover {
     cursor: pointer;
   }
+
+
+  #RegBox{
+    width:94%;
+    height:520px;
+    background-color: snow;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5%;
+}
+#SignUpBox{
+    width:35%;
+    height:88%;
+    border:1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+    padding:2%;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+
+#usernm{
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#usernm:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#mobile {
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#mobile:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#email {
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#email:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#password {
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#password:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#SignUpBut{
+    width:40%;
+    height:40px;
+    background-color:#26262c;
+    color: snow;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left:28%;
+}
+#SignUpBut:hover{
+    background-color: #26262c83;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+    cursor: pointer;
+}
+
+/*LogIn Portion*/
+#BoxContainLog{
+    width:35%;
+    height:90%;
+    border-radius: 5px;
+    color: #26262c;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+}
+#LogIn{
+    width:100%;
+    height:28%;
+    padding:2%;
+    border:1px solid #26262c83;;
+    border-radius: 5px;
+    color: #26262c;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+    margin-left: 50px;
+}
+#ShoppingBox{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:100%;
+    height:300px;
+    margin:auto;
+    margin-top: 20px;
+}
+#ShowcaseImg{
+    height:250px;
+    width:160px;
+    margin:auto;
+}
+#TxtLog{
+    width:550px;
+    height:28px;
+    text-align: center;
+    letter-spacing: .06rem;
+    color: darkcyan;
+    font-size: 15px;
+    font-family: "Avenir Medium", sans-serif;
+    /* margin-left: 10px; */
+}
+#TxtLog:hover{
+    cursor:pointer;
+    color: #26262c;
+    content:'';
+    transition: width 0.1s linear;
+}
+
+
+#RegBox{
+    width:94%;
+    height:650px;
+    background-color: snow;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5%;
+}
+#SignInBox{
+    justify-content: center;
+    width:35%;
+    height:50%;
+    border:1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+    padding:2%;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+
+#usernm{
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#usernm:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#mobile {
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#mobile:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#email {
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#email:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#password {
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #26262c83;
+    border-radius: 5px;
+    color: #26262c;
+    outline: none;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    margin-left:8%;
+}
+#password:hover{
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#SignUpBut{
+    width:40%;
+    height:40px;
+    background-color:#26262c;
+    color: snow;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left:28%;
+}
+#SignUpBut:hover{
+    background-color: #26262c83;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+    cursor: pointer;
+}
+
+
+#RegBox{
+    width:94%;
+    height:520px;
+    background-color: snow;
+    margin: auto;
+    background-image: url("http://cdn.miscellaneoushi.com/1680x1050/20130103/women%20models%20isabeli%20fontana%20fashion%20photography%201680x1050%20wallpaper_www.miscellaneoushi.com_5.jpg");
+    
+}
+#CheckOutBox{
+    margin: auto;
+    width:35%;
+    height:89%;
+    border:1px solid #26262c2f;
+    color: #26262c;
+    letter-spacing: .06rem;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    padding:2%;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#SignUpBut{
+    width:30%;
+    height:40px;
+    background-color:#26262c;
+    color: snow;
+    letter-spacing: .06rem;
+    font-size: 12px;
+    font-family: "Avenir Medium", sans-serif;
+    background-position: 50%;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+#SignUpBut:hover{
+    background-color: #26262c83;
+    box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px, rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+    cursor: pointer;
+}
