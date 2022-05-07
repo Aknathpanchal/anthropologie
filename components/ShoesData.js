@@ -266,3 +266,25 @@ function addCart(elem){
     localStorage.setItem("basketItem", JSON.stringify(cart))
     alert("Added Item to Basket");
 }
+
+
+
+//Search Function
+
+
+let  asosSearchArr=[]
+let searchAsosProd = document.getElementById("searchText").addEventListener("keyup",searchAsos);
+function searchAsos(e){
+  if(e.key==="Enter"){
+   var searchText=document.getElementById("searchText").value;
+
+   asosSearchArr.push(searchText)
+   localStorage.setItem("inpData",JSON.stringify(asosSearchArr))
+
+   console.log(searchText);
+
+  //  window.Location.href="search.html"
+   window.location.href="search.html"
+
+  }
+}
