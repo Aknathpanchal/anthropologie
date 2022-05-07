@@ -20,10 +20,55 @@
 <body>
       <!-- <label for="">Home Page</label> -->
       <div id="OfferNav">Sale!  Get additional $50 OFF on minimum purchase of $800 "50ANTHRO"</div>
-      <div id="header"></div>
+      <div id="header1"></div>
 
   
   <div id="SignUpPage">
+    <div id="RegBox">
+        <div id="SignUpBox">
+            <p style="font-weight: bold">SIGN UP | Become a Member</p>
+            <br>
+            <br>
+            <form action="" id="form">
+                <!-- <label for="">UserName</label> -->
+                <input id="usernm" type="username" placeholder="Please Enter your Name*" />
+                <br>
+                <!-- <label for="">Email</label> -->
+                <input id="email" type="email" placeholder="Please Enter your E-Mail ID*" />
+                <br>
+                <!-- <label for="">Mobile No</label> -->
+                <input id="mobile" type="text" maxlength="10" placeholder="Please Enter your 10 digit Mobile Number*" />
+                <br>
+                <!-- <label for="">Password</label>  -->
+                <input id="password" type="password" placeholder="Please Set a Password*" />
+                <br>
+        
+                <button id="SignUpBut" type="submit">SIGN UP</button>
+              </form>
+        </div>
+        <div id="BoxContainLog">
+            <div id="LogIn">
+                <p style="font-weight: bold">SIGN IN | Already a Member</p>
+                <button id="SignUpBut" type="submit" onclick="window.location.href='signIn.html'">SIGN IN</button>
+            </div>
+            <div id="ShoppingBox">
+                <div id="ShowcaseImg">
+                    <img style="width:150px; height:200px" src="https://images.urbndata.com/is/image/Anthropologie/58377391_020_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" alt="SCaseox01"/>
+                </div>
+                <div id="ShowcaseImg">
+                    <img style="width:150px; height:200px" src="https://images.urbndata.com/is/image/Anthropologie/65153462_021_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" alt="SCaseox02"/>
+                </div>
+                <div id="ShowcaseImg">
+                    <img style="width:150px; height:200px" src="https://images.urbndata.com/is/image/Anthropologie/54775101_047_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" alt="SCaseox03"/>
+                </div>
+                <div id="ShowcaseImg">
+                    <img style="width:150px; height:200px" src="https://images.urbndata.com/is/image/Anthropologie/58395385_083_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=720" alt="SCaseox04"/>
+                </div>
+            </div>
+            <div id="TxtLog" onclick="window.location.href='Home Page.html'">Enjoy your shopping experience at Anthropologies</div>
+        </div>       
+    </div>
+    <br>
       </div>
   <!-- <label for="">Recommended</label> -->
 
@@ -35,7 +80,7 @@
 
   <div id="footer"></div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script>
+    <!-- <script>
 
         window.onscroll = function() {myFunction()};
     
@@ -50,11 +95,11 @@
                 header.classList.remove("stayNav");
             }
         }
-    </script>
+    </script> -->
 </body>
 </html>
 <script>
-    document.getElementById("form").addEventListener("submit", userList);
+    document.getElementById("form").addEventListener("submit",userList);
     var arr = JSON.parse(localStorage.getItem("user")) || [];
   
     function userList(e) {
@@ -78,7 +123,23 @@
             arr.push(userObj);
             localStorage.setItem("user", JSON.stringify(arr));
             alert("Welcome Aboard! Let's Get Shopping");
-            window.location.href = "LogIn_Page.html";
+            window.location.href = "signIn.html";
+        }
+    }
+
+
+
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("AnthroNav_Bar");
+
+    var stayNav = header.offsetTop;
+    function myFunction() {
+        if (window.pageYOffset > stayNav) {
+            header.classList.add("stayNav");
+        }
+        else {
+            header.classList.remove("stayNav");
         }
     }
   </script>
@@ -89,15 +150,15 @@
     import navbar from "./components/navbar.js"
     console.log(navbar);
 
-    let header = document.getElementById("header");
-    header.innerHTML = navbar();
+    let header1 = document.getElementById("header1");
+    header1.innerHTML = navbar();
 
 
-    import SignUp from "./components/SignUp.js"
-    console.log(SignUp);
+    // import SignUp from "./components/SignUp.js"
+    // console.log(SignUp);
 
-    let sort = document.getElementById("SignUpPage");
-    sort.innerHTML = SignUp();
+    // let sort = document.getElementById("SignUpPage");
+    // sort.innerHTML = SignUp();
 
 
 

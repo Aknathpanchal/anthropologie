@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In </title>
     <link rel="shortcut icon" type="image/x-icon" href="https://visitoakville.com/wp-content/uploads/2013/03/04-07-2021-anthropologie-logo.jpg" />
-    <link rel="stylesheet" href="./styles/index.css">
+    <!-- <link rel="stylesheet" href="./styles/index.css"> -->
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="styles\Home Page.css">
-    <link rel="stylesheet" href="styles\glider.min.css">
+    <!-- <link rel="stylesheet" href="styles\Home Page.css"> -->
+    <!-- <link rel="stylesheet" href="styles\glider.min.css"> -->
     <link rel="stylesheet" href="./styles/page.css">
-    <link rel="stylesheet" href="./styles/filter.css">
+    <!-- <link rel="stylesheet" href="./styles/filter.css"> -->
     
 </head>
 <body>
@@ -22,6 +22,32 @@
 
     
     <div id="loginPage">
+        <div id="RegBox">
+            <div id="SignInBox">
+                <p style="font-weight: bold">SIGN IN | Already have an account</p>
+                <br>
+                <br>
+                <form action="" id="form">
+                    <!-- <label for="">Email</label> -->
+                    <input id="email" type="email" placeholder="Please Enter your E-Mail ID*" />
+                    <br>
+                    <!-- <label for="">Password</label>  -->
+                    <input id="password" type="password" placeholder="Enter Password*" />
+                    <br>
+                    <button id="SignUpBut" type="submit">SIGN IN</button>
+                  </form>
+            </div>
+            <div id="BoxContainLog">
+                <div id="LogIn">
+                    <p style="font-weight: bold">Become a MEMBER</p>
+                    <button id="SignUpBut" type="submit" onclick="window.location.href='SignUp_Page.html'">SIGN UP</button>
+                </div>
+            </div>
+            <div>
+                <img style="width:100%; margin:auto" src="https://images.ctfassets.net/5de70he6op10/27h0MBamnyoAWmOCSoIKsU/3b200dbee3b60983dd3e611f840dde29/Rate-and-Review_100GC_footer.jpg" alt="addSigInPg01"/>
+            </div>     
+        </div>
+        <br>
         </div>
     <!-- <label for="">Recommended</label> -->
   
@@ -96,11 +122,11 @@
     header.innerHTML = navbar();
 
   //sort
-  import login from "./components/login.js"
-    console.log(login);
+//   import login from "./components/login.js"
+//     console.log(login);
 
-    let sort = document.getElementById("loginPage");
-    sort.innerHTML = login();
+//     let sort = document.getElementById("loginPage");
+//     sort.innerHTML = login();
 
 
 
